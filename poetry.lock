@@ -580,7 +580,7 @@ description = "Fake implementation of redis API for testing purposes."
 name = "fakeredis"
 optional = false
 python-versions = ">=3.5"
-version = "1.4.1"
+version = "1.4.2"
 
 [package.dependencies]
 redis = "<3.6.0"
@@ -2860,7 +2860,6 @@ version = ">=3.7.4"
 [[package]]
 category = "main"
 description = "Backport of pathlib-compatible object wrapper for zip files"
-marker = "python_version < \"3.7\" and python_version != \"3.4\" or python_version < \"3.8\""
 name = "zipp"
 optional = false
 python-versions = ">=3.6"
@@ -2879,7 +2878,7 @@ spacy = ["spacy"]
 transformers = ["transformers"]
 
 [metadata]
-content-hash = "3ddf9f1a5df8806cd286a71c4d1fd6061b357a078e4e87dace5de9d61a42a2f1"
+content-hash = "e612e5e88828cd30aa3d13022f2b281a3fe3b300307140bc2d42fe3b71550cac"
 python-versions = ">=3.6,<3.9"
 
 [metadata.files]
@@ -3180,8 +3179,8 @@ execnet = [
     {file = "execnet-1.7.1.tar.gz", hash = "sha256:cacb9df31c9680ec5f95553976c4da484d407e85e41c83cb812aa014f0eddc50"},
 ]
 fakeredis = [
-    {file = "fakeredis-1.4.1-py3-none-any.whl", hash = "sha256:647b2593d349d9d4e566c8dadb2e4c71ba35be5bdc4f1f7ac2d565a12a965053"},
-    {file = "fakeredis-1.4.1.tar.gz", hash = "sha256:4d170886865a91dbc8b7f8cbd4e5d488f4c5f2f25dfae127f001617bbe9e8f97"},
+    {file = "fakeredis-1.4.2-py3-none-any.whl", hash = "sha256:fdfe06f277092d022c271fcaefdc1f0c8d9bfa8cb15374cae41d66a20bd96d2b"},
+    {file = "fakeredis-1.4.2.tar.gz", hash = "sha256:790c85ad0f3b2967aba1f51767021bc59760fcb612159584be018ea7384f7fd2"},
 ]
 fbmessenger = [
     {file = "fbmessenger-6.0.0-py2.py3-none-any.whl", hash = "sha256:82cffd6e2fe02bfcf8ed083c59bdddcfdaa594dd0040f0c49eabbaf0e58d974c"},

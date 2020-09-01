@@ -248,10 +248,10 @@ description = "The AWS SDK for Python"
 name = "boto3"
 optional = false
 python-versions = "*"
-version = "1.14.34"
+version = "1.14.52"
 
 [package.dependencies]
-botocore = ">=1.17.34,<1.18.0"
+botocore = ">=1.17.52,<1.18.0"
 jmespath = ">=0.7.1,<1.0.0"
 s3transfer = ">=0.3.0,<0.4.0"
 
@@ -261,7 +261,7 @@ description = "Low-level, data-driven core of boto 3."
 name = "botocore"
 optional = false
 python-versions = "*"
-version = "1.17.34"
+version = "1.17.52"
 
 [package.dependencies]
 docutils = ">=0.10,<0.16"
@@ -3091,6 +3091,7 @@ transformers = ["transformers"]
 
 [metadata]
 content-hash = "ea58e7e93693e2027a6c2bd7b6f0131472a8367df4962b9ca676a5388c95350e"
+lock-version = "1.0"
 python-versions = ">=3.6,<3.9"
 
 [metadata.files]
@@ -3195,12 +3196,12 @@ boto = [
     {file = "boto-2.49.0.tar.gz", hash = "sha256:ea0d3b40a2d852767be77ca343b58a9e3a4b00d9db440efb8da74b4e58025e5a"},
 ]
 boto3 = [
-    {file = "boto3-1.14.34-py2.py3-none-any.whl", hash = "sha256:726937b33b5bf6036a3889ea6ecad632439d1a53c3dd4497c1c426d348e2dae3"},
-    {file = "boto3-1.14.34.tar.gz", hash = "sha256:781f5d1bbec6c2fe902e8855c1c8a576845eaa06630e817b0e422afa4788620e"},
+    {file = "boto3-1.14.52-py2.py3-none-any.whl", hash = "sha256:3f34e2c55bb7764b1718a900a9237f2d2641d3118b70a3b3ffbbb99d549d184d"},
+    {file = "boto3-1.14.52.tar.gz", hash = "sha256:25e64288727b2d0cd559076523ca25dd8a2be646479fdcf70ed82545a52efc90"},
 ]
 botocore = [
-    {file = "botocore-1.17.34-py2.py3-none-any.whl", hash = "sha256:8170f6a236cdfd053275be7b2f1531c90c517d903d38b21d064dc6ba23f20870"},
-    {file = "botocore-1.17.34.tar.gz", hash = "sha256:ff39ec54893397df3c14dd516aedeaff12bb7c363051d8b9bd5fc86bc3e68231"},
+    {file = "botocore-1.17.52-py2.py3-none-any.whl", hash = "sha256:d5c87558cc0f580b41ca432ff17b76ab28cf4ff36672ebfeca3fdeb94758e74a"},
+    {file = "botocore-1.17.52.tar.gz", hash = "sha256:768122a4c6e80c454d61741f19b2691d9366d257f3ac56a740d31b72eaccf4d6"},
 ]
 cachetools = [
     {file = "cachetools-4.1.1-py3-none-any.whl", hash = "sha256:513d4ff98dd27f85743a8dc0e92f55ddb1b49e060c2d5961512855cda2c01a98"},

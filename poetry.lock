@@ -248,10 +248,10 @@ description = "The AWS SDK for Python"
 name = "boto3"
 optional = false
 python-versions = "*"
-version = "1.14.34"
+version = "1.15.9"
 
 [package.dependencies]
-botocore = ">=1.17.34,<1.18.0"
+botocore = ">=1.18.9,<1.19.0"
 jmespath = ">=0.7.1,<1.0.0"
 s3transfer = ">=0.3.0,<0.4.0"
 
@@ -261,10 +261,9 @@ description = "Low-level, data-driven core of boto 3."
 name = "botocore"
 optional = false
 python-versions = "*"
-version = "1.17.34"
+version = "1.18.9"
 
 [package.dependencies]
-docutils = ">=0.10,<0.16"
 jmespath = ">=0.7.1,<1.0.0"
 python-dateutil = ">=2.1,<3.0.0"
 
@@ -564,14 +563,6 @@ version = "0.0.7"
 [package.dependencies]
 docspec = ">=0.2.0,<0.3.0"
 "nr.sumtype" = ">=0.0.3,<0.1.0"
-
-[[package]]
-category = "main"
-description = "Docutils -- Python Documentation Utilities"
-name = "docutils"
-optional = false
-python-versions = ">=2.6, !=3.0.*, !=3.1.*, !=3.2.*"
-version = "0.15.2"
 
 [[package]]
 category = "dev"
@@ -3091,6 +3082,7 @@ transformers = ["transformers"]
 
 [metadata]
 content-hash = "ea58e7e93693e2027a6c2bd7b6f0131472a8367df4962b9ca676a5388c95350e"
+lock-version = "1.0"
 python-versions = ">=3.6,<3.9"
 
 [metadata.files]
@@ -3195,12 +3187,12 @@ boto = [
     {file = "boto-2.49.0.tar.gz", hash = "sha256:ea0d3b40a2d852767be77ca343b58a9e3a4b00d9db440efb8da74b4e58025e5a"},
 ]
 boto3 = [
-    {file = "boto3-1.14.34-py2.py3-none-any.whl", hash = "sha256:726937b33b5bf6036a3889ea6ecad632439d1a53c3dd4497c1c426d348e2dae3"},
-    {file = "boto3-1.14.34.tar.gz", hash = "sha256:781f5d1bbec6c2fe902e8855c1c8a576845eaa06630e817b0e422afa4788620e"},
+    {file = "boto3-1.15.9-py2.py3-none-any.whl", hash = "sha256:e0a1dbc0a0e460dc6de2f4144b5015edad3ab5c17ee83c6194b1a010d815bc60"},
+    {file = "boto3-1.15.9.tar.gz", hash = "sha256:02f5f7a2b1349760b030c34f90a9cb4600bf8fe3cbc76b801d122bc4cecf3a7f"},
 ]
 botocore = [
-    {file = "botocore-1.17.34-py2.py3-none-any.whl", hash = "sha256:8170f6a236cdfd053275be7b2f1531c90c517d903d38b21d064dc6ba23f20870"},
-    {file = "botocore-1.17.34.tar.gz", hash = "sha256:ff39ec54893397df3c14dd516aedeaff12bb7c363051d8b9bd5fc86bc3e68231"},
+    {file = "botocore-1.18.9-py2.py3-none-any.whl", hash = "sha256:dc3244170254cbba7dfde00b0489f830069d93dd6a9e555178d989072d7ee7c2"},
+    {file = "botocore-1.18.9.tar.gz", hash = "sha256:35b06b8801eb2dd7e708de35581f9c0304740645874f3af5b8b0c1648f8d6365"},
 ]
 cachetools = [
     {file = "cachetools-4.1.1-py3-none-any.whl", hash = "sha256:513d4ff98dd27f85743a8dc0e92f55ddb1b49e060c2d5961512855cda2c01a98"},
@@ -3384,11 +3376,6 @@ docspec = [
 docspec-python = [
     {file = "docspec-python-0.0.7.tar.gz", hash = "sha256:13af366a2dc0efdc7488f7560ad169ee80992f7f792a6b8d7ad0097bba7a27ab"},
     {file = "docspec_python-0.0.7-py3-none-any.whl", hash = "sha256:9949eda3f964aacdf39d5c84e24a72464e7e190d982cbb2714e661124fa03524"},
-]
-docutils = [
-    {file = "docutils-0.15.2-py2-none-any.whl", hash = "sha256:9e4d7ecfc600058e07ba661411a2b7de2fd0fafa17d1a7f7361cd47b1175c827"},
-    {file = "docutils-0.15.2-py3-none-any.whl", hash = "sha256:6c4f696463b79f1fb8ba0c594b63840ebd41f059e92b31957c46b74a4599b6d0"},
-    {file = "docutils-0.15.2.tar.gz", hash = "sha256:a2aeea129088da402665e92e0b25b04b073c04b2dce4ab65caaa38b7ce2e1a99"},
 ]
 ecdsa = [
     {file = "ecdsa-0.14.1-py2.py3-none-any.whl", hash = "sha256:e108a5fe92c67639abae3260e43561af914e7fd0d27bae6d2ec1312ae7934dfe"},
